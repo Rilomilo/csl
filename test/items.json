@@ -1,0 +1,542 @@
+[
+	{
+		"id": "http://zotero.org/users/8963763/items/ZJ3WKXHS",
+		"type": "article",
+		"abstract": "We present some updates to YOLO! We made a bunch of little design changes to make it better. We also trained this new network that’s pretty swell. It’s a little bigger than last time but more accurate. It’s still fast though, don’t worry. At 320 × 320 YOLOv3 runs in 22 ms at 28.2 mAP, as accurate as SSD but three times faster. When we look at the old .5 IOU mAP detection metric YOLOv3 is quite good. It achieves 57.9 AP50 in 51 ms on a Titan X, compared to 57.5 AP50 in 198 ms by RetinaNet, similar performance but 3.8× faster. As always, all the code is online at https://pjreddie.com/yolo/.",
+		"language": "en",
+		"note": "Preprint",
+		"number": "arXiv:1804.02767",
+		"source": "Zotero",
+		"title": "YOLOv3: An Incremental Improvement",
+		"title-short": "YOLOv3",
+		"URL": "https://arxiv.org/abs/1804.02767",
+		"author": [
+			{
+				"family": "Farhadi",
+				"given": "Joseph Redmon Ali"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/8963763/items/Y9NAZ86J",
+		"type": "paper-conference",
+		"abstract": "Recent work has shown that convolutional networks can be substantially deeper, more accurate, and efficient to train if they contain shorter connections between layers close to the input and those close to the output. In this paper, we embrace this observation and introduce the Dense Convolutional Network (DenseNet), which connects each layer to every other layer in a feed-forward fashion. Whereas traditional convolutional networks with L layers have L connections - one between each layer and its subsequent layer - our network has L(L+1)/2 direct connections. For each layer, the feature-maps of all preceding layers are used as inputs, and its own feature-maps are used as inputs into all subsequent layers. DenseNets have several compelling advantages: they alleviate the vanishing-gradient problem, strengthen feature propagation, encourage feature reuse, and substantially reduce the number of parameters. We evaluate our proposed architecture on four highly competitive object recognition benchmark tasks (CIFAR-10, CIFAR-100, SVHN, and ImageNet). DenseNets obtain significant improvements over the state-of-the-art on most of them, whilst requiring less computation to achieve high performance. Code and pre-trained models are available at https://github.com/liuzhuang13/DenseNet .",
+		"archive": "arXiv:1608.06993",
+		"container-title": "CVPR",
+		"event-title": "CVPR",
+		"language": "en",
+		"note": "CVPR2017",
+		"source": "arXiv.org",
+		"title": "Densely Connected Convolutional Networks",
+		"title-short": "DenseNet",
+		"URL": "http://arxiv.org/abs/1608.06993",
+		"author": [
+			{
+				"family": "Huang",
+				"given": "Gao"
+			},
+			{
+				"family": "Liu",
+				"given": "Zhuang"
+			},
+			{
+				"family": "Maaten",
+				"given": "Laurens",
+				"non-dropping-particle": "van der"
+			},
+			{
+				"family": "Weinberger",
+				"given": "Kilian Q."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					4,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					1,
+					28
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/8963763/items/HXUAAJ5A",
+		"type": "article",
+		"abstract": "To understand the real world using various types of data, Artiﬁcial Intelligence (AI) is the most used technique nowadays. While ﬁnding the pattern within the analyzed data represents the main task. This is performed by extracting representative features step, which is proceeded using the statistical algorithms or using some speciﬁc ﬁlters. However, the selection of useful features from large-scale data represented a crucial challenge. Now, with the development of convolution neural networks (CNNs), the feature extraction operation has become more automatic and easier. CNNs allow to work on large-scale size of data, as well as cover diﬀerent scenarios for a speciﬁc task. For computer vision tasks, convolutional networks are used to extract features also for the other parts of a deep learning model. The selection of a suitable network for feature extraction or the other parts of a DL model is not random work. So, the implementation of such a model can be related to the target task as well as the computational complexity of it. Many networks have been proposed and become the famous networks used for any DL models in any AI task. These networks are exploited for feature extraction or at the beginning of any DL model which is named backbones. A backbone is a known network trained in many other tasks before and demonstrates its eﬀectiveness. In this paper, an overview of the existing backbones, e.g. VGGs, ResNets, DenseNet, etc, is given with a detailed description. Also, a couple of computer vision tasks are discussed by providing a review of each task regarding the backbones used. In addition, a comparison in terms of performance is also provided, based on the backbone used for each task.",
+		"language": "en",
+		"note": "Preprint",
+		"number": "arXiv:2206.08016",
+		"source": "arXiv.org",
+		"title": "Backbones-Review: Feature Extraction Networks for Deep Learning and Deep Reinforcement Learning Approaches",
+		"title-short": "Review",
+		"URL": "http://arxiv.org/abs/2206.08016",
+		"author": [
+			{
+				"family": "Elharrouss",
+				"given": "Omar"
+			},
+			{
+				"family": "Akbari",
+				"given": "Younes"
+			},
+			{
+				"family": "Almaadeed",
+				"given": "Noor"
+			},
+			{
+				"family": "Al-Maadeed",
+				"given": "Somaya"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					5,
+					6
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					6,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/8963763/items/SR5E7JZZ",
+		"type": "article-journal",
+		"abstract": "A general non-parametric technique is proposed for the analysis of a complex multimodal feature space and to delineate arbitrarily shaped clusters in it. The basic computational module of the technique is an old pattern recognition procedure: the mean shift. For discrete data, we prove the convergence of a recursive mean shift procedure to the nearest stationary point of the underlying density function and, thus, its utility in detecting the modes of the density. The relation of the mean shift procedure to the Nadaraya-Watson estimator from kernel regression and the robust M-estimators; of location is also established. Algorithms for two low-level vision tasks discontinuity-preserving smoothing and image segmentation - are described as applications. In these algorithms, the only user-set parameter is the resolution of the analysis, and either gray-level or color images are accepted as input. Extensive experimental results illustrate their excellent performance.",
+		"container-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+		"DOI": "10.1109/34.1000236",
+		"ISSN": "1939-3539",
+		"issue": "5",
+		"journalAbbreviation": "TPAMI",
+		"note": "TPAMI",
+		"page": "603-619",
+		"source": "IEEE Xplore",
+		"title": "Mean shift: a robust approach toward feature space analysis",
+		"title-short": "Mean shift",
+		"URL": "https://ieeexplore.ieee.org/document/1000236",
+		"volume": "24",
+		"author": [
+			{
+				"family": "Comaniciu",
+				"given": "D."
+			},
+			{
+				"family": "Meer",
+				"given": "P."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					10,
+					16
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2002",
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/8963763/items/2NMPNL2Z",
+		"type": "thesis",
+		"abstract": "数字水印技术是用信号处理的方法在声音，图像或视频等数字化多媒体数据中嵌入隐蔽信息的行为。通过隐藏在多媒体内容中的信息，可以达到确认内容创建者，购买者或判断内容是否真实完整的目的。是保护数字媒体信息安全的有效方法。关于数字水印的研究开始于二十世纪九十年代中期，随着网络和多媒体技术的发展，数字水印技术也得到了人们越来越多的关注。但是目前数字水印技术仍有许多尚未明确和亟待解决的问题。本论文在数字水印技术的基础理论、应用基础、应用研究三个层面上均进行了一些探讨。主要内容如下：（一）、在基础理论方面，在总结前人的研究成果基础上结合自己的研究实际，对数字水印系统设计的一些重要基础理论问题进行了较全面的阐述。从数学的观点上看，水印系统可以从高维空间和不同空间的关系、状态、行为和转化来考察。综合目前的研究结果，作者提出一种新的鲁棒性水印系统的理论模型表述，描述了模型下水印系统活动的状态转换，研究了水印系统研究面对的重点，并从该模型入手给出水印系统的信息负载应由检测器输出的由感觉系统可感知的数据信息熵加上由检测器检测的标志空间的信息量组成的结论。（二）、讨论了水印信号的通常所具有的形式，给出了无意义水印中零比特水印的伪随机序列、均匀分布序列、随机二进序列生成方法；多比特水印的直接信息编码方法和多符号编码的原则；有意义水印的调制。（三）、水印的标志空间选取对水印算法是至关重要的，许多嵌入算法取决于宿主信号到标志空间转换后的统计假设，因此，在考虑水印标志空间的设计时，充分注意它与原始载体的关系。对可能的水印标志空间的分布特性有最基本的了解。我们对常用的水印各标志空间（空间域、Fourier域、DCT域、DWT域、广义二维离散变换域）生成、分布特性进行了探讨，并给出了标志空间的几种度量模型设计、性质的讨论。 <WP=142>（四）、数字水印技术的使用是多媒体技术和网络技术的发展的需要。对于攻击的鲁棒性是水印设计的一个主要要求。因为数字水印不但要面对多媒体数据使用时的正常的处理；而且也有人研究破坏、伪造数字水印的方法以期获取非法利益。对水印攻击方法的研究是有积极作用的。根据现在掌握资料的分析和总结，对数字水印系统可能遭受的攻击进行了分类和原理上进行了分析；并针对各种攻击的原理提出了相应的抵抗对策。（五）、目前已有很多的水印方法被提出，然而由于对它们进行测试时使用的评价方法、攻击和图像各不相同，很难对这些水印方法进行比较，这是不利于数字水印技术的发展的。因此除了设计水印方法之外，一个重要的问题是建立对水印的评价基准。本文讨论了设计水印系统应考虑的原则要求和特性，对水印系统的评价方式进行了探讨，提出水印系统的评价必须从两方面进行：首先认识水印的特性和要求，对水印系统的实现方案在对它自身要求的满足程度上的进行评判；其次，是针对应用目的来考察水印系统的实现方案与其他方案间的不同。即评价应当从绝对和相对两种角度来进行，应区分水印应用中的条件，按应用目的和条件的不同选择不同的评价指标。设定不同的标准，在其特性之间作出权衡，对每一种应用所具有的特性进行分析，建立对各种特性的评价方法和准则。（六）、目前的数字媒体（如：图像等）品质度量方法通常是基于主观的和统计性的。例如，ITU-R Rec.500品质等级度量就定义了图像的品质量度和削弱量度，并被一些研究者建议用于评价图像水印的品质。由于类似的主观品质评价方法在水印应用中使用很不方便，我们建议使用客观的计算方法来进行度量，这样会在效率上有很大提高。并给出了小波包分解子频带加权能量总和方法及基于高阶统计量的评价这两种具体方法。在数字水印透明性的评价方面，文章针对水印系统定义中的感知距离函数集Ｄ1的具体实现作了详细讨论，讨论了频域中加权的均方误差方法、基于DCT视觉模型的感知距离度量、基于小波视觉门限的感知度量，自主实现了基于空域JND的感知度量。在水印系统鲁棒性评价方面讨论了信息内容错误和误识率的考察，对攻击抵抗的评价也给出了具体方法（七）、本文对水印的另一个重要的应用“内容认证”作了详细讨论，<WP=143>对使用水印技术帮助保持和验证作品的完整性的要求进行了描述。从应用方面讨论了用于认证的水印技术应该面对的问题。对内容的精确认证即脆弱水印方面给出了一个用于完成静态灰度图像内容精确认证的“SVD-MHC精确认证水印算法”。对内容的选择认证即半脆弱水印的研究上从两个方面入手进行了研究。一方面是从满足条件的水印植入的角度探讨了基于各种标志空间中可感知阈值的量化类半脆弱水印框架，给出了一种基于空域JND方法的灰度图像量化半脆弱水印算法。另一方面从水印植入方程逆问题的扰动现象入手，通过求得数据被篡改情况下的反向扰动的数据值增长情况和扰动的区域来研究篡改的程度和篡改的轮廓。并在这一研究的基础上引入自适应半脆弱水印嵌入算法。（八）、在应用基础方面，论文探讨了水印嵌入算法的实现原则和检测方法。给出了数字水印系统应用服务的实现模型。（九）、在应用研究方面，论文给出",
+		"genre": "博士",
+		"language": "中文;",
+		"publisher": "吉林大学",
+		"source": "CNKI",
+		"title": "数字水印技术的研究",
+		"URL": "https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CDFD&dbname=CDFD9908&filename=2004100361.nh&v=",
+		"author": [
+			{
+				"family": "朱晓冬",
+				"given": ""
+			}
+		],
+		"contributor": [
+			{
+				"family": "苑森淼",
+				"given": ""
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2004"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/8963763/items/MRGT6V58",
+		"type": "article-journal",
+		"abstract": "With the rapid development of the mobile network and the gradual popularization of mobile devices, more and more users try to find attractive places to visit through WeChat, Twitter applications. In this trend, personalized next point of interest(POI) recommendation in the Location-based Social Network (LBSN) has become the focus of research and practice. Most existing studies capture user interest changes between different days (i.e. weekend and weekday), however, they ignore seasonal factors in time transition and category factors and thus fail to capture seasonal-level and category-level movement patterns in users’ mobile trajectories. Besides, they neglect the relevance between POIs from all users’ trajectory and fail to generate expressive POI embedding representation without constructing trajectory graph, which will reduce the accuracy of the next POI recommendation. To address the issues above, a next POI recommendation method for modeling Multi-factor User Preferences based on Transformer (MUPT) is developed, which consists of a global POI relationship modeling, a local multi-factor user preference modeling and a prediction module. It first learns the collaborative information of users with similar behavior to generate expressive POI embedding representation. Then it captures the personalized movement patterns of users at the POI, category and time levels based on Transformer mechanism in the local module. Especially the seasonal and other fine-grained information on the time series are learned in the time preference modeling part. The prediction module designed tracks the relationship between multi-level motion pattern representation of user check-in behavior and the next POI accessed by the user, and it finally obtains user’s preference probability for next POIs. An extensive experiment has been conducted on four datasets, and the experimental results analysis demonstrates that our proposed MUPT method is superior to other methods in terms of accuracy(ACC), mean reciprocal rank(MRR) and normalized discounted cumulative gain(NDCG).",
+		"container-title": "Expert Systems with Applications",
+		"DOI": "10.1016/j.eswa.2024.124894",
+		"ISSN": "0957-4174",
+		"journalAbbreviation": "ESWA",
+		"language": "en",
+		"license": "https://www.elsevier.com/tdm/userlicense/1.0/",
+		"note": "ESWA",
+		"page": "124894",
+		"source": "Crossref",
+		"title": "Modeling multi-factor user preferences based on Transformer for next point of interest recommendation",
+		"URL": "https://linkinghub.elsevier.com/retrieve/pii/S0957417424017615",
+		"volume": "255",
+		"author": [
+			{
+				"family": "Zheng",
+				"given": "Yongshang"
+			},
+			{
+				"family": "Zhou",
+				"given": "Xu"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					9,
+					17
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/8963763/items/KUXAZZRY",
+		"type": "paper-conference",
+		"abstract": "We present LSeg, a novel model for language-driven semantic image segmentation. LSeg uses a text encoder to compute embeddings of descriptive input labels (e.g., \"grass\" or \"building\") together with a transformer-based image encoder that computes dense per-pixel embeddings of the input image. The image encoder is trained with a contrastive objective to align pixel embeddings to the text embedding of the corresponding semantic class. The text embeddings provide a flexible label representation in which semantically similar labels map to similar regions in the embedding space (e.g., \"cat\" and \"furry\"). This allows LSeg to generalize to previously unseen categories at test time, without retraining or even requiring a single additional training sample. We demonstrate that our approach achieves highly competitive zero-shot performance compared to existing zero- and few-shot semantic segmentation methods, and even matches the accuracy of traditional segmentation algorithms when a fixed label set is provided. Code and demo are available at https://github.com/isl-org/lang-seg.",
+		"archive": "arXiv:2201.03546",
+		"container-title": "ICLR",
+		"event-title": "ICLR",
+		"note": "ICLR2022",
+		"publisher": "arXiv101",
+		"source": "arXiv.org",
+		"title": "Language-driven Semantic Segmentation",
+		"URL": "http://arxiv.org/abs/2201.03546",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Boyi"
+			},
+			{
+				"family": "Weinberger",
+				"given": "Kilian Q."
+			},
+			{
+				"family": "Belongie",
+				"given": "Serge"
+			},
+			{
+				"family": "Koltun",
+				"given": "Vladlen"
+			},
+			{
+				"family": "Ranftl",
+				"given": "René"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					10,
+					12
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					4,
+					2
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/8963763/items/2F97QPHD",
+		"type": "article-journal",
+		"abstract": "Medical image segmentation is a critical component in clinical practice, facilitating accurate diagnosis, treatment planning, and disease monitoring. However, existing methods, often tailored to specific modalities or disease types, lack generalizability across the diverse spectrum of medical image segmentation tasks. Here we present MedSAM, a foundation model designed for bridging this gap by enabling universal medical image segmentation. The model is developed on a large-scale medical image dataset with 1,570,263 image-mask pairs, covering 10 imaging modalities and over 30 cancer types. We conduct a comprehensive evaluation on 86 internal validation tasks and 60 external validation tasks, demonstrating better accuracy and robustness than modality-wise specialist models. By delivering accurate and efficient segmentation across a wide spectrum of tasks, MedSAM holds significant potential to expedite the evolution of diagnostic tools and the personalization of treatment plans.",
+		"container-title": "Nature Communications",
+		"DOI": "10.1038/s41467-024-44824-z",
+		"ISSN": "2041-1723",
+		"issue": "1",
+		"journalAbbreviation": "Nature",
+		"note": "Nature",
+		"page": "654",
+		"source": "arXiv.org",
+		"title": "Segment Anything in Medical Images",
+		"URL": "http://arxiv.org/abs/2304.12306",
+		"volume": "15",
+		"author": [
+			{
+				"family": "Ma",
+				"given": "Jun"
+			},
+			{
+				"family": "He",
+				"given": "Yuting"
+			},
+			{
+				"family": "Li",
+				"given": "Feifei"
+			},
+			{
+				"family": "Han",
+				"given": "Lin"
+			},
+			{
+				"family": "You",
+				"given": "Chenyu"
+			},
+			{
+				"family": "Wang",
+				"given": "Bo"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					10,
+					14
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					1,
+					22
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/8963763/items/RX3ADMAZ",
+		"type": "paper-conference",
+		"abstract": "We present SegFormer, a simple, efﬁcient yet powerful semantic segmentation framework which uniﬁes Transformers with lightweight multilayer perceptron (MLP) decoders. SegFormer has two appealing features: 1) SegFormer comprises a novel hierarchically structured Transformer encoder which outputs multiscale features. It does not need positional encoding, thereby avoiding the interpolation of positional codes which leads to decreased performance when the testing resolution differs from training. 2) SegFormer avoids complex decoders. The proposed MLP decoder aggregates information from different layers, and thus combining both local attention and global attention to render powerful representations. We show that this simple and lightweight design is the key to efﬁcient segmentation on Transformers. We scale our approach up to obtain a series of models from SegFormer-B0 to SegFormer-B5, reaching signiﬁcantly better performance and efﬁciency than previous counterparts. For example, SegFormer-B4 achieves 50.3% mIoU on ADE20K with 64M parameters, being 5× smaller and 2.2% better than the previous best method. Our best model, SegFormer-B5, achieves 84.0% mIoU on Cityscapes validation set and shows excellent zero-shot robustness on Cityscapes-C. Code will be released at: github.com/NVlabs/SegFormer.",
+		"archive": "arXiv:2105.15203",
+		"container-title": "NIPS",
+		"event-title": "NIPS",
+		"language": "en",
+		"note": "NIPS2021",
+		"publisher": "arXiv",
+		"source": "arXiv.org",
+		"title": "SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers",
+		"title-short": "SegFormer",
+		"URL": "http://arxiv.org/abs/2105.15203",
+		"author": [
+			{
+				"family": "Xie",
+				"given": "Enze"
+			},
+			{
+				"family": "Wang",
+				"given": "Wenhai"
+			},
+			{
+				"family": "Yu",
+				"given": "Zhiding"
+			},
+			{
+				"family": "Anandkumar",
+				"given": "Anima"
+			},
+			{
+				"family": "Alvarez",
+				"given": "Jose M."
+			},
+			{
+				"family": "Luo",
+				"given": "Ping"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					10,
+					27
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					28
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/8963763/items/HP6ZTRPN",
+		"type": "paper-conference",
+		"abstract": "Self-supervised learning (SSL) is an efficient pre-training method for medical image analysis. However, current research is mostly confined to certain modalities, consuming considerable time and resources without achieving universality across different modalities. A straightforward solution is combining all modality data for joint SSL, which poses practical challenges. Firstly, our experiments reveal conflicts in representation learning as the number of modalities increases. Secondly, multi-modal data collected in advance cannot cover all real-world scenarios. In this paper, we reconsider versatile SSL from the perspective of continual learning and propose MedCoSS, a continuous SSL approach for multi-modal medical data. Different from joint representation learning, MedCoSS assigns varying data modalities to separate training stages, creating a multi-stage pre-training process. We propose a rehearsalbased continual learning approach to manage modal conflicts and prevent catastrophic forgetting. Specifically, we use the k-means sampling to retain and rehearse previous modality data during new modality learning. Moreover, we apply feature distillation and intra-modal mixup on buffer data for knowledge retention, bypassing pretext tasks. We conduct experiments on a large-scale multi-modal unlabeled dataset, including clinical reports, X-rays, CT, MRI, and pathological images. Experimental results demonstrate MedCoSS’s exceptional generalization ability across 9 downstream datasets and its significant scalability in integrating new modality data. The code and pre-trained model are available at https://github.com/yeerwen/MedCoSS.",
+		"container-title": "CVPR",
+		"DOI": "10.1109/CVPR52733.2024.01057",
+		"event-place": "Seattle, WA, USA",
+		"event-title": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+		"ISBN": "9798350353006",
+		"language": "en",
+		"license": "https://doi.org/10.15223/policy-029",
+		"note": "CVPR2024",
+		"page": "11114-11124",
+		"publisher": "IEEE",
+		"publisher-place": "Seattle, WA, USA",
+		"source": "DOI.org (Crossref)",
+		"title": "Continual Self-Supervised Learning: Towards Universal Multi-Modal Medical Data Representation Learning",
+		"title-short": "Continual Self-Supervised Learning",
+		"URL": "https://ieeexplore.ieee.org/document/10656972/",
+		"author": [
+			{
+				"family": "Ye",
+				"given": "Yiwen"
+			},
+			{
+				"family": "Xie",
+				"given": "Yutong"
+			},
+			{
+				"family": "Zhang",
+				"given": "Jianpeng"
+			},
+			{
+				"family": "Chen",
+				"given": "Ziyang"
+			},
+			{
+				"family": "Wu",
+				"given": "Qi"
+			},
+			{
+				"family": "Xia",
+				"given": "Yong"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					10,
+					28
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					6,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/8963763/items/IG6QY6XE",
+		"type": "paper-conference",
+		"container-title": "CVPR",
+		"DOI": "10.1109/CVPR52733.2024.01103",
+		"event-place": "Seattle, WA, USA",
+		"event-title": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+		"ISBN": "9798350353006",
+		"language": "en",
+		"license": "https://doi.org/10.15223/policy-029",
+		"note": "CVPR2024",
+		"page": "11611-11620",
+		"publisher": "IEEE",
+		"publisher-place": "Seattle, WA, USA",
+		"source": "DOI.org (Crossref)",
+		"title": "Low-Rank Knowledge Decomposition for Medical Foundation Models",
+		"URL": "https://ieeexplore.ieee.org/document/10656233/",
+		"author": [
+			{
+				"family": "Zhou",
+				"given": "Yuhang"
+			},
+			{
+				"family": "Li",
+				"given": "Haolin"
+			},
+			{
+				"family": "Du",
+				"given": "Siyuan"
+			},
+			{
+				"family": "Yao",
+				"given": "Jiangchao"
+			},
+			{
+				"family": "Zhang",
+				"given": "Ya"
+			},
+			{
+				"family": "Wang",
+				"given": "Yanfeng"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					10,
+					28
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					6,
+					16
+				]
+			]
+		}
+	}
+]

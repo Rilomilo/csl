@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only">
+    <info>
+        <!-- info field can't be ignored, If it's unable to import into zotero, try to change id field. -->
+        <title>concise</title>
+        <id>http://www.zotero.org/styles/concise</id>
+        <link href="http://www.zotero.org/styles/concise" rel="self"/>
+        <author>
+            <name>Rilomilo</name>
+        </author>
+        <category citation-format="numeric"/>
+        <summary>customized csl</summary>
+        <updated>2024-10-30T14:30:07+00:00</updated>
+    </info>
+
+    <locale xml:lang="en">
+        <date form="text">
+            <date-part name="month" form="short" suffix=" "/>
+            <date-part name="day" form="numeric-leading-zeros" suffix=", "/>
+            <date-part name="year"/>
+        </date>
+    </locale>
+    <!-- Macros -->
+    <macro name="author">
+        <names variable="author">
+            <name and="text" et-al-min="3" et-al-use-first="1" initialize-with=". "/>
+            <label form="short" prefix=", " text-case="capitalize-first"/>
+            <et-al font-style="italic"/>
+        </names>
+    </macro>
+
+    <macro name="title">
+        <text variable="title"/>
+    </macro>
+
+    <macro name="issued-date">
+        <date variable="issued">
+            <!-- <date-part name="month" form="short"/> -->
+            <date-part name="year" prefix=" "/>
+        </date>
+    </macro>
+
+    <macro name="citation-locator">
+        <group delimiter=" ">
+            <choose>
+                <if locator="page">
+                    <label variable="locator" form="short"/>
+                </if>
+                <else>
+                    <label variable="locator" form="short" text-case="capitalize-first"/>
+                </else>
+            </choose>
+            <text variable="locator"/>
+        </group>
+    </macro>
+
+    <!-- Citation -->
+    <citation>
+        <sort>
+            <key variable="citation-number"/>
+        </sort>
+        <layout delimiter=", ">
+            <group prefix="[" suffix="]" delimiter=", ">
+                <text variable="citation-number"/>
+                <text macro="citation-locator"/>
+            </group>
+        </layout>
+    </citation>
+
+    <!-- Bibliography -->
+    <bibliography entry-spacing="0" second-field-align="flush">
+        <layout>
+            <!-- Citation Number -->
+            <text variable="citation-number" prefix="[" suffix="]"/>
+
+            <!-- <text variable="number"/> -->
+            <!-- Support four Formats(Preprint is of article type) -->
+            <choose>
+                <if type="paper-conference article article-journal thesis" match="any">
+                    <!-- 1.Author(s) -->
+                    <text macro="author" suffix=". "/>
+                    <!-- 2.Title -->
+                    <text macro="title" suffix=". "/>
+
+                    <!-- 3.Publisher
+                        Journal Article: journal Abbr(journalAbbreviation)
+                        Conference Paper: Proceedings Title(container-title)
+                        Journal Article: Publication(container-title)
+                        thesis: University(publisher)
+                        Preprint(article): Repository(publisher)
+                        Preprint(article)(Unpublished): Archive ID(number)
+                    -->
+                    <choose>
+                        <if type="paper-conference">
+                            <text term="in" suffix=" " text-case="capitalize-first"/>
+                        </if>
+                    </choose>
+                    <group font-style="italic" suffix=", ">
+                        <choose>
+                            <if variable="journalAbbreviation">
+                                <text variable="journalAbbreviation"/>
+                            </if>
+                            <else-if variable="container-title">
+                                <text variable="container-title"/>
+                            </else-if>
+                            <else-if variable="publisher">
+                                <text variable="publisher"/>
+                            </else-if>
+                            <else-if variable="number">
+                                <text variable="number"/>
+                            </else-if>
+                            <else>
+                                <text value="Missing field"/>
+                            </else>
+                        </choose>
+                    </group>
+                    <!-- 4.Date -->
+                    <text macro="issued-date" suffix="."/>
+                </if>
+                <else>
+                    <text value="Unspported_formats"/>
+                </else>
+            </choose>
+        </layout>
+    </bibliography>
+</style>
